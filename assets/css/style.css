@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Rock+Salt:100,200,300,400,500,600,700');
+
+/***************************************Heading*/
+
+header {
+    margin: 0;
+}
+
+.main-title{
+    padding-bottom: 20px;
+}
+
+#nav {
+    margin:0;
+}
+
+#nav li {
+    padding: 0;
+    display: inline;
+}
+
+
+.menuitem {
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #808080;
+    background-color: #ffffff;
+}
+.menuitem a i {
+    padding-top: 15px;
+    display: block;
+    color: #808080;
+    font-size: 15px;
+    border:0px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+   padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #808080;
+}
+
+
+.hvr-rectangle-out:before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+.general-sub {
+    font-family: 'Rock Salt', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #808080;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+
+.gif {
+    background: url("../images/monkees.gif") no-repeat center center fixed;
+    min-height: 200px;
+    background-size: cover;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+.bookings-btn {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #808080;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-color: #000000;
+}
+
+.btn-danger:hover {
+    color: #808080;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+.ui-menu-color-home {
+    background-color: #ffffff;
+}
+
+.list-inline{
+     background-color: #ffffff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+
+
+.about-text h2 {
+    font-family: "Rock Salt", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    color: #606060;    
+}
+.about-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color: #808080;    
+}
+
+.about{
+    color:  #606060;
+}
+
+.birds-and-bees{
+    background: url("../images/birdsandbees.jpg") no-repeat center;
+    height: 150px;
+    /*width:100%;*/
+    margin-bottom: 10px;
+    size: auto;
+    background-position: center;
+    
+}
+.song-title{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.fancy-a-listen h3{
+       font-family: "Rock Salt", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding-bottom: 15px; 
+    text-align: center;
+    font-weight: 600;
+     color: #606060;    
+}
+.fancy-a-listen h4{
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding-bottom: 5px; 
+    text-align: center;
+    font-weight: 300;
+     color: #606060;    
+}
+
+.audio{
+    margin-top: 25px;
+}
+/***************************************Footer*/
+
+footer {
+    background-color: #fafafa;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #ffffff;
+    background: #b8b8b8;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+#footer-details {
+    margin: 20px;
+    text-align: center;
+    color: #606060;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+hr {
+       display: block;
+       position: relative;
+       padding: 0;
+       margin: 8px auto;
+       height: 0;
+       width: 100%;
+       clear: both;
+       border: none;
+       border-top: 1px solid #aaaaaa;
+       border-bottom: 1px solid #ffffff;
+    }
+    
