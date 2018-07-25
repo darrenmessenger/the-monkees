@@ -199,12 +199,6 @@ header {
     margin-top: 25px;
 }
 
-.song-title {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
 .watch-video h3 {
     font-family: "Rock Salt", sans-serif;
     text-transform: uppercase;
@@ -238,7 +232,23 @@ header {
 }
 
 .members {
-    margin-top: 25px;
+    margin-top: 0px;
+}
+
+.members h4{
+    text-align: center;
+}
+
+.members p{
+    margin-left : 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.member-title {
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .in-the-band h3 {
@@ -250,6 +260,40 @@ header {
     text-align: center;
     font-weight: 600;
     color: #606060;
+}
+
+.dj {
+    background: url("../images/dj.jpg") no-repeat center;
+    height: 200px;
+    margin-bottom: 10px;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+.md {
+    background: url("../images/md.jpg") no-repeat center;
+    height: 200px;
+    margin-bottom: 10px;
+    background-position: center;
+        margin-bottom: 25px;
+
+}
+
+.mn {
+    background: url("../images/mn.jpg") no-repeat center;
+    height: 200px;
+    margin-bottom: 10px;
+    background-position: center;
+        margin-bottom: 25px;
+
+}
+.pt {
+    background: url("../images/pt.jpg") no-repeat center;
+    height: 200px;
+    margin-bottom: 10px;
+    background-position: center;
+        margin-bottom: 25px;
+
 }
 /***************************************Footer*/
 
