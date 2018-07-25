@@ -15,7 +15,7 @@
 
 <body>
     <header class="container-fluid">
-        <h1 class="uppercase general-sub main-title">The Monkees Video</h1>
+        <h1 class="uppercase general-sub main-title">The Monkees VIDEO</h1>
 
         <div class="row">
             <hr class="col-xs-offset-2 col-xs-8">
@@ -24,7 +24,7 @@
                     <a href="index.html" class="hvr-rectangle-out"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span>></a>
                 </li>
                 <li class="col-xs-6 col-md-2 ui-menu-color-Members menuitem">
-                    <a href="#" class="hvr-rectangle-out"><i class="fas fa-drum" aria-hidden="true"></i><span>Band Members</span>></a>
+                    <a href="members.html" class="hvr-rectangle-out"><i class="fas fa-drum" aria-hidden="true"></i><span>Band Members</span>></a>
                 </li>
                 <li class="col-xs-6 col-md-2 ui-menu-color-audio menuitem">
                     <a href="audio.html" class="hvr-rectangle-out"><i class="fa fa-music" aria-hidden="true"></i><span>Music Clips</span>></a>
@@ -42,49 +42,28 @@
 
             </ul>
         </div>
-
     </header>
     <section class="container-fluid main-section">
         <div class="row">
-            <div class="gif">
-                <div>
-                    <a href="bookings.html" class="bookings-btn btn-danger hvr-rectangle-out">Make a Party Booking</a>
+            <hr class="col-xs-offset-2 col-xs-8">
+            <div class="row watch-video">
+                <div class="col-xs-12 audio">
+                    <h3>A Quick Video...</h3>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div>
-                <div class="col-xs-12 col-sm-offset-1 col-sm-10  col-md-offset-3 col-md-6 about-text">
-                    <h2>The Monkees History</h2>
-                    <p>The Monkees are a pop rock band, who were formed in 1966 for a television series of the same name, which aired from 1966 to 1968. Members of the band were Americans Peter Tork, Micky Dolenz, Michael Nesmith, and Englishman Davy Jones.
-                        The band was created to capitalize on the popularity of The Beatles' film A Hard Day's Night, and the television series would follow the adventures of the fictitious band.
-                    </p>
-                    <a href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">
-                        <p class="read-more">Read more...</p>
-                    </a>
-                </div>
-            </div>
-            <hr class="col-xs-offset-2 col-xs-8">
-            <div class="row fancy-a-listen">
-                <div class="col-xs-12">
-                    <h3>Fancy a Listen?</h3>
-                </div>
-                <div class="col-xs-12 col-sm-offset-2 col-sm-4 birds-and-bees">
-                </div>
-                <div class="col-xs-12 col-sm-4 song-title">
-                    <h4>Daydream Believer</h4>
-
-                    <audio controls>
-                        <source src="../assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
+        <div class="row video">
+            <div class="col-xs-12 video-title">
+                <h4>Daydream Believer</h4>
+                <video class="video-box" width="500" height="285" controls>
+                  <source src="../assets/video/TheMonkees.mp4" type="video/mp4">
+                  <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.</video>
             </div>
         </div>
     </section>
+    <hr class="col-xs-offset-2 col-xs-8">
     <footer class="container-fluid">
-        <hr class="col-xs-offset-2 col-xs-8">
         <div id="footer-details" class="row">
-
             <div>
                 <h5 class="uppercase">MySocial</h5>
                 <ul class="list-inline social-links">
@@ -96,12 +75,8 @@
                     <li> <a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </div>
-
         </div>
-
-
     </footer>
-
 </body>
 
 </html>

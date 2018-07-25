@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Rock+Salt:100,200,300,400,500,600,700');
 
 /***************************************Heading*/
@@ -7,12 +6,12 @@ header {
     margin: 0;
 }
 
-.main-title{
+.main-title {
     padding-bottom: 20px;
 }
 
 #nav {
-    margin:0;
+    margin: 0;
 }
 
 #nav li {
@@ -35,18 +34,19 @@ header {
     color: #808080;
     background-color: #ffffff;
 }
+
 .menuitem a i {
     padding-top: 15px;
     display: block;
     color: #808080;
     font-size: 15px;
-    border:0px;
+    border: 0px;
 }
 
 .menuitem span {
     display: block;
     width: 100%;
-   padding-top: 10px;
+    padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
@@ -81,7 +81,7 @@ header {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    
+
 }
 
 .bookings-btn {
@@ -110,8 +110,8 @@ header {
     background-color: #ffffff;
 }
 
-.list-inline{
-     background-color: #ffffff;
+.list-inline {
+    background-color: #ffffff;
 }
 
 .uppercase {
@@ -128,8 +128,9 @@ header {
     font-size: 20px;
     padding-bottom: 15px;
     font-weight: 600;
-    color: #606060;    
+    color: #606060;
 }
+
 .about-text {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -138,57 +139,124 @@ header {
     margin-bottom: 20px;
     text-align: center;
     padding-top: 5px;
-    color: #808080;    
+    color: #808080;
 }
 
-.about{
-    color:  #606060;
+.about {
+    color: #606060;
 }
 
-.birds-and-bees{
+.birds-and-bees {
     background: url("../images/birdsandbees.jpg") no-repeat center;
     height: 150px;
-    /*width:100%;*/
     margin-bottom: 10px;
-    size: auto;
     background-position: center;
-    
+
 }
-.song-title{
+
+.clarksville-album-cover {
+    background: url("../images/clarksville-album-cover.jpg") no-repeat center;
+    height: 150px;
+    margin-bottom: 10px;
+    background-position: center;
+}
+
+.SteppingStone {
+    background: url("../images/stepping-stone-album-cover.jpg") no-repeat center;
+    height: 150px;
+    margin-bottom: 10px;
+    background-position: center;
+}
+
+.song-title {
     text-align: center;
     padding: 0;
     margin: 0;
 }
 
-.fancy-a-listen h3{
-       font-family: "Rock Salt", sans-serif;
+.fancy-a-listen h3 {
+    font-family: "Rock Salt", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 15px;
-    padding-bottom: 15px; 
+    padding-bottom: 15px;
     text-align: center;
     font-weight: 600;
-     color: #606060;    
+    color: #606060;
 }
-.fancy-a-listen h4{
+
+.song-title h4 {
     font-family: "Roboto", sans-serif;
     letter-spacing: 4px;
     font-size: 15px;
-    padding-bottom: 5px; 
+    padding-bottom: 5px;
     text-align: center;
     font-weight: 300;
-     color: #606060;    
+    color: #606060;
 }
 
-.audio{
+.audio {
     margin-top: 25px;
+}
+
+.song-title {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.watch-video h3 {
+    font-family: "Rock Salt", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #606060;
+}
+
+.video-title h4 {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: 300;
+    color: #606060;
+}
+
+.video {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.video-box{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 25px;
+}
+
+.members {
+    margin-top: 25px;
+}
+
+.in-the-band h3 {
+    font-family: "Rock Salt", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #606060;
 }
 /***************************************Footer*/
 
 footer {
-    background-color: #fafafa;
-    color: #fafafa;
-    min-height: 120px;
+    background-color: #ffffff;
+    color: #ffffff;
+    min-height: 60px;
     margin: 0;
 }
 
@@ -228,15 +296,14 @@ footer {
 }
 
 hr {
-       display: block;
-       position: relative;
-       padding: 0;
-       margin: 8px auto;
-       height: 0;
-       width: 100%;
-       clear: both;
-       border: none;
-       border-top: 1px solid #aaaaaa;
-       border-bottom: 1px solid #ffffff;
-    }
-    
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    clear: both;
+    border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+}
