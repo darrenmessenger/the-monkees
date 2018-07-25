@@ -8,15 +8,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rock+Salt" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker" type="text/css" />
     <meta name="viewport" content="width-device-width,initial-scale-1">
 
 </head>
-
 <body>
     <header class="container-fluid">
-        <h1 class="uppercase general-sub main-title">The Monkees BOOKINGS</h1>
-
+        <h1 class="uppercase general-sub main-title">The Monkees</h1>
         <div class="row">
             <hr class="col-xs-offset-2 col-xs-8">
             <ul id="nav" class="list-inline clearfix">
@@ -27,7 +25,7 @@
                     <a href="members.html" class="hvr-rectangle-out"><i class="fas fa-drum" aria-hidden="true"></i><span>Band Members</span>></a>
                 </li>
                 <li class="col-xs-6 col-md-2 ui-menu-color-audio menuitem">
-                    <a href="audio.html" class="hvr-rectangle-out"><i class="fa fa-music" aria-hidden="true"></i><span>Music Clips</span>></a>
+                    <a href="audio.html" class="hvr-rectangle-out"><i class="fa fa-music" aria-hidden="true"></i><span>Audio Clips</span>></a>
                 </li>
                 <li class="col-xs-6 col-md-2 ui-menu-color-video menuitem">
                     <a href="video.html" class="hvr-rectangle-out"><i class="fa fa-video" aria-hidden="true"></i><span>Video Clips</span>></a>
@@ -44,40 +42,25 @@
         </div>
 
     </header>
-    <section class="container-fluid main-section">
-        <div class="row">
-            <div class="gif">
-                <div>
-                    <a href="bookings.html" class="bookings-btn btn-danger hvr-rectangle-out">Make a Party Booking</a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
+    <hr class="col-xs-offset-2 col-xs-8">
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
             <div>
-                <div class="col-xs-12 col-sm-offset-1 col-sm-10  col-md-offset-3 col-md-6 about-text">
-                    <h2>The Monkees History</h2>
-                    <p>The Monkees are a pop rock band, who were formed in 1966 for a television series of the same name, which aired from 1966 to 1968. Members of the band were Americans Peter Tork, Micky Dolenz, Michael Nesmith, and Englishman Davy Jones.
-                        The band was created to capitalize on the popularity of The Beatles' film A Hard Day's Night, and the television series would follow the adventures of the fictitious band.
-                    </p>
-                    <a href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">
-                        <p class="read-more">Read more...</p>
-                    </a>
-                </div>
+                <h3 class="contact-heading uppercase text-center">Book The Monkees For Your Event</h3>
+                <h5 class="uppercase text-center">Do You Have an Event You Would Like The Monkees To Appear at?</h5>
             </div>
-            <hr class="col-xs-offset-2 col-xs-8">
-            <div class="row fancy-a-listen">
-                <div class="col-xs-12">
-                    <h3>Fancy a Listen?</h3>
-                </div>
-                <div class="col-xs-12 col-sm-offset-2 col-sm-4 birds-and-bees">
-                </div>
-                <div class="col-xs-12 col-sm-4 song-title">
-                    <h4>Daydream Believer</h4>
-
-                    <audio controls>
-                        <source src="../assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
-                    </audio>
-                </div>
+            <div class="center-form">
+                <form>
+                    <label for="name" class="control-label">Name</label>
+                    <input type="text" name="name" class="form-control" id="fullname" Placeholder="Name" required/>
+                    <label for="emailaddress" class="control-label">Email Address</label>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" Placeholder="Email" required/>
+                    <label for="date" class="control-label">Date</label>
+                    <input type="date" name="date" class="form-control" id="date" Placeholder="Date Of Event" required/>
+                    <label for="eventdescription" class="control-label">Event Details</label>
+                    <textarea rows="5" name="eventdetails" class="form-control" id="eventdetails" Placeholder="Event Details" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block hvr-rectangle-out">Send Request</button>
+                </form>
             </div>
         </div>
     </section>

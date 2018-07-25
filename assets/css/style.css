@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Rock+Salt:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Permanent+Marker:100,200,300,400,500,600,700');
 
 /***************************************Heading*/
 
@@ -6,9 +6,12 @@ header {
     margin: 0;
 }
 
+
 .main-title {
     padding-bottom: 20px;
 }
+
+/***************************************Menu*/
 
 #nav {
     margin: 0;
@@ -18,7 +21,6 @@ header {
     padding: 0;
     display: inline;
 }
-
 
 .menuitem {
     margin-top: 5px;
@@ -57,21 +59,30 @@ header {
     color: #808080;
 }
 
+.ui-menu-color-home {
+    background-color: #ffffff;
+}
+
+.list-inline {
+    background-color: #ffffff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
 
 .hvr-rectangle-out:before {
     background: rgba(0, 0, 0, 0.2);
 }
 
-
 .general-sub {
-    font-family: 'Rock Salt', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
+    font-family: 'Permanent Marker', sans-serif;
+    font-weight: 200;
+    font-size: 60px;
     color: #808080;
     text-align: center;
     letter-spacing: 4px;
 }
-
 
 .gif {
     background: url("../images/monkees.gif") no-repeat center center fixed;
@@ -83,6 +94,8 @@ header {
     -o-background-size: cover;
 
 }
+
+/***************************************Bookings*/
 
 .bookings-btn {
     display: inline-block;
@@ -106,26 +119,11 @@ header {
     border-color: #000000;
 }
 
-.ui-menu-color-home {
-    background-color: #ffffff;
-}
-
-.list-inline {
-    background-color: #ffffff;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-
-
-
 .about-text h2 {
-    font-family: "Rock Salt", sans-serif;
+    font-family: "Permanent Marker", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 20px;
+    font-size: 30px;
     padding-bottom: 15px;
     font-weight: 600;
     color: #606060;
@@ -146,12 +144,13 @@ header {
     color: #606060;
 }
 
+/***************************************Audio*/
+
 .birds-and-bees {
     background: url("../images/birdsandbees.jpg") no-repeat center;
     height: 150px;
     margin-bottom: 10px;
     background-position: center;
-
 }
 
 .clarksville-album-cover {
@@ -175,10 +174,10 @@ header {
 }
 
 .fancy-a-listen h3 {
-    font-family: "Rock Salt", sans-serif;
+    font-family: "Permanent Marker", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 15px;
+    font-size: 30px;
     padding-bottom: 15px;
     text-align: center;
     font-weight: 600;
@@ -199,11 +198,13 @@ header {
     margin-top: 25px;
 }
 
+/***************************************Video*/
+
 .watch-video h3 {
-    font-family: "Rock Salt", sans-serif;
+    font-family: "Permanent Marker", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 15px;
+    font-size: 30px;
     padding-bottom: 15px;
     text-align: center;
     font-weight: 600;
@@ -225,22 +226,24 @@ header {
     text-align: center;
 }
 
-.video-box{
+.video-box {
     margin-top: 0;
     padding-top: 0;
     margin-bottom: 25px;
 }
 
+/***************************************Members*/
+
 .members {
     margin-top: 0px;
 }
 
-.members h4{
+.members h4 {
     text-align: center;
 }
 
-.members p{
-    margin-left : 20px;
+.members p {
+    margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 25px;
 }
@@ -252,10 +255,10 @@ header {
 }
 
 .in-the-band h3 {
-    font-family: "Rock Salt", sans-serif;
+    font-family: "Permanent Marker", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 15px;
+    font-size: 30px;
     padding-bottom: 15px;
     text-align: center;
     font-weight: 600;
@@ -275,7 +278,7 @@ header {
     height: 200px;
     margin-bottom: 10px;
     background-position: center;
-        margin-bottom: 25px;
+    margin-bottom: 25px;
 
 }
 
@@ -284,17 +287,62 @@ header {
     height: 200px;
     margin-bottom: 10px;
     background-position: center;
-        margin-bottom: 25px;
+    margin-bottom: 25px;
 
 }
+
 .pt {
     background: url("../images/pt.jpg") no-repeat center;
     height: 200px;
     margin-bottom: 10px;
     background-position: center;
-        margin-bottom: 25px;
-
+    margin-bottom: 25px;
 }
+
+/***************************************Contact*/
+
+.contact-heading {
+    font-family: "Permanent Marker", sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #808080;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: #b8b8b8;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.center-form label {
+    font-family: "Roboto", sans-serif;
+    color: #808080;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.bg-color-contact{
+margin-top: 25px;
+}
+
+.bg-color-contact h5{
+    margin-top: 30px;
+}
+
 /***************************************Footer*/
 
 footer {
