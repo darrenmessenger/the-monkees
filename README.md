@@ -1,6 +1,6 @@
 # The Monkees
 
-Welcome!
+<img src="images/monkees-screen-shot.jpg">
 
 ## Reason For Project
 
