@@ -269,7 +269,6 @@ header {
 .dj {
     background: url("../images/dj.jpg") no-repeat center;
     height: 200px;
-    margin-bottom: 10px;
     background-position: center;
     margin-bottom: 25px;
 }
@@ -277,7 +276,6 @@ header {
 .md {
     background: url("../images/md.jpg") no-repeat center;
     height: 200px;
-    margin-bottom: 10px;
     background-position: center;
     margin-bottom: 25px;
 
@@ -286,7 +284,6 @@ header {
 .mn {
     background: url("../images/mn.jpg") no-repeat center;
     height: 200px;
-    margin-bottom: 10px;
     background-position: center;
     margin-bottom: 25px;
 
@@ -295,7 +292,6 @@ header {
 .pt {
     background: url("../images/pt.jpg") no-repeat center;
     height: 200px;
-    margin-bottom: 10px;
     background-position: center;
     margin-bottom: 25px;
 }
@@ -353,8 +349,6 @@ footer {
     margin: 0;
 }
 
-
-
 .social-links {
     padding-bottom: 15px;
     text-align: center;
@@ -369,15 +363,14 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #ffffff;
-    background: #b8b8b8;
+    background: #808080;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background: rgba(0, 0, 0, 0.6);
-
+    background: #202020;
 }
 
 #footer-details {
