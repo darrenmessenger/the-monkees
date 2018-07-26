@@ -16,6 +16,9 @@ Audio clips
 
 Also, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
 
+#### Header:
+There is a header on each page which includes an image. If the image is clicked it will take the user back to the landing page. 
+
 #### Navigation:
 On the top of each page there is a navigation bar so that each page can be clicked. The navigation bar remains constant on each page and uses hover.css when hovering over each menu item so that the menu item is highlighted. 
 
