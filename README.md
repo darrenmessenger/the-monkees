@@ -1,31 +1,48 @@
 # The Monkees
 
-<img src="images/monkees-screen-shot.jpg">
+<img src="assets/images/monkees-screen-shot.jpg">
 
 ## Reason For Project
 
-This project has been built for the User Centric Frontend Development Milestone Project.
+This project has been built for the User Centric Frontend Development Milestone Project. The brief was to build a static (front-end only) website for a band. 
+The band is a 1960’s rock band (The Monkees!) and have around 50 years experience of performing live at numerous events around the world. 
+Their primary target audiences are their fans and potential fans who wish to use the site to see and hear clips from their back catalog, and any new material as it becomes available.
+Also, the band would like to use the site to showcase their music and publicise their availability to perform at events such as weddings and Christmas parties.
 
-### Overview
-A website for The Monkees, a 60's band that still tours to this day. Visitors can traverse through the website via the navigation bar at the top to find out more about the band, listen to the band and even book the band. They will be presented with the following features:
+The website should include:
+Photos of the band members
+A video clip
+Audio clips
 
-####The landing page showing:
-A full width background image of the next gig and a link to buy tickets for that gig The latest news article for the band The most popular song the band has at that moment in time
+Also, they are in the process of creating a social media presence and would like to add links to their Facebook, Twitter and YouTube pages.
 
-####The band page showing:
-A full width background image of the band performing live A description of each band member laid out in the Bootstrap grid system
+#### Navigation:
+On the top of each page there is a navigation bar so that each page can be clicked. The navigation bar remains constant on each page and uses hover.css when hovering over each menu item so that the menu item is highlighted. 
 
-####The tours page showing:
-A full width background image of the next gig and a link to buy tickets for that gig A list of gig dates and locations in a Bootstap grid layout with the use of favicons and hover.css to improve UI
+#### Footer:
+At the bottom of each page there are links to various social media including Facebook, Twitter and YouTube. The links also uses hover.css so they are highlighted when hovered over. These links do not do anything yet. 
 
-####The music page showing:
-Four of the most popular tracks presented in a responsive Bootstrap grid layout Audio can be played and presented neatly on all screensizes
+#### The Landing Page:
+A full width background gif with a button to link you to the booking page so that you can book the Monkees for your next event. There is also a short history of the Monkees with a link via Wikipedia to learn more about them. 
+If you can't remember how the Monkees sound there is a sample track to remind you. 
 
-####The bookings page showing:
-A responsive form to allow the user to enter details to book the band A clear layout with informative placeholder descriptions
+#### The Band Members:
+Each member has a description from Wikipedia along with a photo. There is also a 'Read more...' with a link to Wikipedia for each member. The page utilises the bootstrap grid layout. 
 
-####Across all pages there is:
-A navigation bar that remains constant with the design and colour palette of the website and uses hover.css for visual improvements A footer that also remains in line with the overall design of the website and also has links to various social media relating to the band
+#### Audio Tracks:
+There a some sample audio tracks from the Monkees on this page. The page utilises the bootstrap grid layout. 
 
-####Tech
-Bootstrap, html and css have been used to construct this website
+#### Video:
+There is a page with a video showing one of the Monkees tracks. 
+
+#### Party Bookings:
+A form to allow the user to enter details so that they may book the Monkees to appear at their own event. All the details are very clear using descriptive placeholders. 
+
+#### Search:
+This is displayed on the navigation bar but it doesn't do anything yet. 
+
+#### Built With
+Bootstrap, html and css have been used during the coding of this website. 
+
+#### Author
+Darren Messenger
