@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Permanent+Marker:100,200,300,400,500,600,700');
 
+
+html, body {
+    font-family: "Roboto", sans-serif;
+}
 /***************************************Heading*/
 
 header {
@@ -17,6 +21,22 @@ header {
 
 #nav {
     margin: 0;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar-toggle{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
 }
 
 #nav li {
@@ -53,7 +73,6 @@ header {
     padding-top: 10px;
     text-align: center;
     text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
     font-size: 10px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -106,7 +125,6 @@ header {
     margin-bottom: 20px;
     background-color: #ffffff;
     color: #808080;
-    font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -133,7 +151,6 @@ header {
 }
 
 .about-text {
-    font-family: "Roboto", sans-serif;
     font-size: 14px;
     text-decoration: none;
     margin-top: 30px;
@@ -188,7 +205,6 @@ header {
 }
 
 .song-title h4 {
-    font-family: "Roboto", sans-serif;
     letter-spacing: 4px;
     font-size: 15px;
     padding-bottom: 5px;
@@ -215,7 +231,6 @@ header {
 }
 
 .video-title h4 {
-    font-family: "Roboto", sans-serif;
     letter-spacing: 4px;
     font-size: 15px;
     padding-bottom: 5px;
@@ -251,10 +266,13 @@ header {
     margin-bottom: 25px;
 }
 
-.member-title {
-    text-align: center;
+.member p {
     padding: 0;
     margin: 0;
+}
+
+.read-more{
+    text-align: center;
 }
 
 .in-the-band h3 {
@@ -321,13 +339,11 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #b8b8b8;
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
 .center-form label {
-    font-family: "Roboto", sans-serif;
     color: #808080;
     text-transform: uppercase;
     font-weight: 500;
@@ -379,19 +395,426 @@ footer {
     margin: 20px;
     text-align: center;
     color: #606060;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
 
 hr {
-    display: block;
-    position: relative;
-    padding: 0;
-    margin: 8px auto;
-    height: 0;
-    width: 100%;
-    clear: both;
-    border: none;
-    border-top: 1px solid #aaaaaa;
-    border-bottom: 1px solid #ffffff;
+    width:60%;
+    border: 0;
+    border-bottom: 1px solid #808080;
+    background: #ffffff;
+    
 }
+.@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Permanent+Marker:100,200,300,400,500,600,700');
+
+
+html, body {
+    font-family: "Roboto", sans-serif;
+}
+/***************************************Heading*/
+
+header {
+    margin: 0;
+}
+
+
+.title-logo {
+    background: url("../images/monkees-logo.png") no-repeat center;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/***************************************Menu*/
+
+#nav {
+    margin: 0;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.navbar-toggle{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+#nav li {
+    padding: 0;
+    display: inline;
+}
+
+.menuitem {
+    margin-top: 5px;
+    height: 50px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #808080;
+    background-color: #ffffff;
+}
+
+.menuitem a i {
+    padding-top: 15px;
+    display: block;
+    color: #808080;
+    font-size: 15px;
+    border: 0px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #808080;
+}
+
+.ui-menu-color-home {
+    background-color: #ffffff;
+}
+
+.list-inline {
+    background-color: #ffffff;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.hvr-rectangle-out:before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.general-sub {
+    font-family: 'Permanent Marker', sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    color: #505050;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.gif {
+    background: url("../images/monkees.gif") no-repeat center center fixed;
+    min-height: 200px;
+    background-size: cover;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/***************************************Bookings*/
+
+.bookings-btn {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    color: #808080;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-color: #606060;
+    border-style: solid;
+    border-width:3px; 
+}
+
+.btn-danger:hover {
+    color: #808080;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+.about-text h2 {
+    font-family: "Permanent Marker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-weight: 600;
+    color: #606060;
+}
+
+.about-text {
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color: #808080;
+}
+
+.about {
+    color: #606060;
+}
+
+/***************************************Audio*/
+
+.birds-and-bees {
+    background: url("../images/birdsandbees.jpg") no-repeat center;
+    height: 150px;
+    margin-bottom: 10px;
+    background-position: center;
+}
+
+.clarksville-album-cover {
+    background: url("../images/clarksville-album-cover.jpg") no-repeat center;
+    height: 150px;
+    margin-bottom: 10px;
+    background-position: center;
+}
+
+.SteppingStone {
+    background: url("../images/stepping-stone-album-cover.jpg") no-repeat center;
+    height: 150px;
+    margin-bottom: 10px;
+    background-position: center;
+}
+
+.song-title {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.fancy-a-listen h3 {
+    font-family: "Permanent Marker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #606060;
+}
+
+.song-title h4 {
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: 300;
+    color: #606060;
+}
+
+.audio {
+    margin-top: 25px;
+}
+
+/***************************************Video*/
+
+.watch-video h3 {
+    font-family: "Permanent Marker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #606060;
+}
+
+.video-title h4 {
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: 300;
+    color: #606060;
+}
+
+.video {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.video-box {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 25px;
+}
+
+/***************************************Members*/
+
+.members {
+    margin-top: 0px;
+}
+
+.members h4 {
+    text-align: center;
+}
+
+.members p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.member p {
+    padding: 0;
+    margin: 0;
+}
+
+.read-more{
+    text-align: center;
+}
+
+.in-the-band h3 {
+    font-family: "Permanent Marker", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #606060;
+}
+
+.dj {
+    background: url("../images/dj.jpg") no-repeat center;
+    height: 200px;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+.md {
+    background: url("../images/md.jpg") no-repeat center;
+    height: 200px;
+    background-position: center;
+    margin-bottom: 25px;
+
+}
+
+.mn {
+    background: url("../images/mn.jpg") no-repeat center;
+    height: 200px;
+    background-position: center;
+    margin-bottom: 25px;
+
+}
+
+.pt {
+    background: url("../images/pt.jpg") no-repeat center;
+    height: 200px;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+/***************************************Contact*/
+
+.contact-heading {
+    font-family: "Permanent Marker", sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #808080;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: #b8b8b8;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.center-form label {
+    color: #808080;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.bg-color-contact{
+margin-top: 25px;
+}
+
+.bg-color-contact h5{
+    margin-top: 30px;
+}
+
+/***************************************Footer*/
+
+footer {
+    background-color: #ffffff;
+    color: #ffffff;
+    min-height: 60px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #ffffff;
+    background: #808080;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #202020;
+}
+
+#footer-details {
+    margin: 20px;
+    text-align: center;
+    color: #606060;
+    font-weight: 500;
+}
+
+hr {
+    width:60%;
+    border: 0;
+    border-bottom: 1px solid #808080;
+    background: #ffffff;
+    
+}
+
+.form-control {
+    margin: 15px;
+    color: #A0A0A0;
+}
+

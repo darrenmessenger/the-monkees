@@ -9,45 +9,53 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width-device-width,initial-scale-1">
-
 </head>
-<hr class="col-xs-offset-2 col-xs-8">
+
 <body>
-    <header class="container-fluid">
-        <h1 class="uppercase general-sub main-title">The Monkees</h1>
-        <a href="index.html">
-            <div class="title-logo"></div>
-        </a>
-        <hr class="col-xs-offset-2 col-xs-8">
-        <div class="row">
-            <ul id="nav" class="list-inline clearfix">
-                <li class="col-xs-6 col-md-2 ui-menu-color-home menuitem">
-                    <a href="index.html" class="hvr-rectangle-out"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span>></a>
-                </li>
-                <li class="col-xs-6 col-md-2 ui-menu-color-Members menuitem">
-                    <a href="members.html" class="hvr-rectangle-out"><i class="fas fa-drum" aria-hidden="true"></i><span>Band Members</span>></a>
-                </li>
-                <li class="col-xs-6 col-md-2 ui-menu-color-audio menuitem">
-                    <a href="audio.html" class="hvr-rectangle-out"><i class="fa fa-music" aria-hidden="true"></i><span>Audio Clips</span>></a>
-                </li>
-                <li class="col-xs-6 col-md-2 ui-menu-color-video menuitem">
-                    <a href="video.html" class="hvr-rectangle-out"><i class="fa fa-video" aria-hidden="true"></i><span>Video Clips</span>></a>
-                </li>
-                <li class="col-xs-6 col-md-2 ui-menu-color-bookings menuitem">
-                    <a href="bookings.html" class="hvr-rectangle-out"><i class="fa fa-pen" aria-hidden="true"></i><span>Party Bookings</span>></a>
-                </li>
-                <li class="col-xs-6 col-md-2 ui-menu-color-search menuitem">
-                    <a href="#" target="_blank" class="hvr-rectangle-out"><i class="fa fa-search" aria-hidden="true"></i><span>Search</span>></a>
-                </li>
+    <nav class="navbar navbar-default">
+        <header class="container-fluid">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+             </button>
+            <h1 class="uppercase general-sub main-title">The Monkees</h1>
+            <a href="index.html">
+                <div class="title-logo"></div>
+            </a>
+            <div class="navbar-collapse collapse" id="navbar">
+                <div class="row">
+                    <ul id="nav" class="list-inline clearfix">
+                        <li class="col-xs-4 col-md-2 ui-menu-color-home menuitem">
+                            <a href="index.html" class="hvr-rectangle-out"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span>></a>
+                        </li>
+                        <li class="col-xs-4 col-md-2 ui-menu-color-Members menuitem">
+                            <a href="members.html" class="hvr-rectangle-out"><i class="fas fa-drum" aria-hidden="true"></i><span>Band Members</span>></a>
+                        </li>
+                        <li class="col-xs-4 col-md-2 ui-menu-color-audio menuitem">
+                            <a href="audio.html" class="hvr-rectangle-out"><i class="fa fa-music" aria-hidden="true"></i><span>Audio Clips</span>></a>
+                        </li>
+                        <li class="col-xs-4 col-md-2 ui-menu-color-video menuitem">
+                            <a href="video.html" class="hvr-rectangle-out"><i class="fa fa-video" aria-hidden="true"></i><span>Video Clips</span>></a>
+                        </li>
+                        <li class="col-xs-4 col-md-2 ui-menu-color-bookings menuitem">
+                            <a href="bookings.html" class="hvr-rectangle-out"><i class="fa fa-pen" aria-hidden="true"></i><span>Party Bookings</span>></a>
+                        </li>
+                        <li class="col-xs-4 col-md-2 ui-menu-color-search menuitem">
+                            <a href="#" target="_blank" class="hvr-rectangle-out"><i class="fa fa-search" aria-hidden="true"></i><span>Search</span>></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-
-            </ul>
-        </div>
-    </header>
+        </header>
+    </nav>
     <section class="container-fluid main-section">
         <div class="row">
-            <hr class="col-xs-offset-2 col-xs-8">
             <div class="row watch-video">
                 <div class="col-xs-12 audio">
                     <h3>A Quick Video...</h3>
@@ -63,7 +71,7 @@
             </div>
         </div>
     </section>
-    <hr class="col-xs-offset-2 col-xs-8">
+    <hr>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div>
