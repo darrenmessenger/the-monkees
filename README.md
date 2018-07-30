@@ -1,6 +1,6 @@
 # The Monkees
 
-<img src="assets/images/monkees-website-screenshot.png">
+<img src="assets/images/main-page-screen-print.png">
 
 ## Reason For Project
 
