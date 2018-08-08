@@ -20,7 +20,7 @@ Also, they are in the process of creating a social media presence and would like
 
 ### Wireframes
 
-The wireframes for this website can be found in the repository. 
+The wireframes for this website can be found in the repository within Github. 
 
 ### Existing Features
 
