@@ -18,6 +18,10 @@ Also, they are in the process of creating a social media presence and would like
 
 ## Features
 
+### Wireframes
+
+The wireframes for this website can be found in the repository. 
+
 ### Existing Features
 
 #### Header:
