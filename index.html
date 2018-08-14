@@ -16,100 +16,108 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <header class="container-fluid">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+    <div class="bg">
+        <div class="opaque-overlay">&nbsp;</div>
+        <nav class="navbar navbar-default">
+            <!------------Header---------->
+            <header class="container-fluid header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
              </button>
-            <h1 class="uppercase general-sub main-title">The Monkees</h1>
-            <a href="index.html">
-                <div class="title-logo"></div>
-            </a>
-            <div class="navbar-collapse collapse" id="navbar">
-                <div class="row">
-                    <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-4 col-md-2 ui-menu-color-home menuitem">
-                            <a href="index.html" class="hvr-rectangle-out"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-Members menuitem">
-                            <a href="members.html" class="hvr-rectangle-out"><i class="fas fa-drum" aria-hidden="true"></i><span>Band Members</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-audio menuitem">
-                            <a href="audio.html" class="hvr-rectangle-out"><i class="fa fa-music" aria-hidden="true"></i><span>Audio Clips</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-video menuitem">
-                            <a href="video.html" class="hvr-rectangle-out"><i class="fa fa-video" aria-hidden="true"></i><span>Video Clips</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-bookings menuitem">
-                            <a href="bookings.html" class="hvr-rectangle-out"><i class="fa fa-pen" aria-hidden="true"></i><span>Party Bookings</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-search menuitem">
-                            <a href="#" target="_blank" class="hvr-rectangle-out"><i class="fa fa-search" aria-hidden="true"></i><span>Search</span>></a>
-                        </li>
+                <a class="action_link" href="index.html">
+                    <h1 class="uppercase general-sub main-title">The Monkees</h1>
+                </a>
+                <!------------Navigation---------->
+                <div class="navbar-collapse collapse" id="navbar">
+                    <div class="row">
+                        <ul id="nav" class="list-inline clearfix">
+                            <li class="col-xs-4 col-md-2 ui-menu-color-home menuitem">
+                                <a href="index.html" class="hvr-rectangle-out"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-Members menuitem">
+                                <a href="members.html" class="hvr-rectangle-out"><i class="fas fa-drum" aria-hidden="true"></i><span>Band Members</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-audio menuitem">
+                                <a href="audio.html" class="hvr-rectangle-out"><i class="fa fa-music" aria-hidden="true"></i><span>Audio Clips</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-video menuitem">
+                                <a href="video.html" class="hvr-rectangle-out"><i class="fa fa-video" aria-hidden="true"></i><span>Video Clips</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-bookings menuitem">
+                                <a href="bookings.html" class="hvr-rectangle-out"><i class="fa fa-pen" aria-hidden="true"></i><span>Party Bookings</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-search menuitem">
+                                <a href="#" target="_blank" class="hvr-rectangle-out"><i class="fa fa-search" aria-hidden="true"></i><span>Search</span>></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </header>
+        </nav>
+        <!------------Main Section---------->
+        <section class="container-fluid main-section">
+            <div class="row">
+                <div class="booking-button">
+                    <div>
+                        <a class="btn btn-primary" href="bookings.html" role="button">Book For Your Event</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8  col-md-offset-3 col-md-6 about-text">
+                        <h2>The Monkees History</h2>
+                        <p class="text-background">The Monkees are a pop rock band, who were formed in 1966 for a television series of the same name, which aired from 1966 to 1968. Members of the band were Americans Peter Tork, Micky Dolenz, Michael Nesmith, and Englishman Davy
+                            Jones. The band was created to capitalize on the popularity of The Beatles' film A Hard Day's Night, and the television series would follow the adventures of the fictitious band.
+                        </p>
+                        <a href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">
+                            <p class="read-more">Read more...</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="row fancy-a-listen">
+                    <div class="col-xs-12 audio">
+                        <h3>Fancy a Listen?</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row audio">
+                <div class="col-xs-12 col-sm-offset-3 col-sm-3 birds-and-bees"></div>
+                <div class="col-xs-12 col-sm-3 song-title">
+                    <h4>Daydream Believer</h4>
+                    <audio controls>
+                            <source src="../assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                        </audio>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="clear"></div>
+    <!------------Footer---------->
+    <div class="footer">
+        <footer class="container-fluid">
+            <div id="footer-details" class="row">
+                <div>
+                    <h5 class="uppercase">MySocial</h5>
+                    <ul class="container-fluid list-inline social-links">
+                        <li> <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
-
-        </header>
-    </nav>
-    <section class="container-fluid main-section">
-        <div class="row">
-            <div class="gif">
-                <div>
-                    <a href="bookings.html" class="bookings-btn btn-danger hvr-rectangle-out">Book For Your Event</a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div>
-                <div class="col-xs-12 col-sm-offset-1 col-sm-10  col-md-offset-3 col-md-6 about-text">
-                    <h2>The Monkees History</h2>
-                    <p>The Monkees are a pop rock band, who were formed in 1966 for a television series of the same name, which aired from 1966 to 1968. Members of the band were Americans Peter Tork, Micky Dolenz, Michael Nesmith, and Englishman Davy Jones.
-                        The band was created to capitalize on the popularity of The Beatles' film A Hard Day's Night, and the television series would follow the adventures of the fictitious band.
-                    </p>
-                    <a href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">
-                        <p class="read-more">Read more...</p>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="row fancy-a-listen">
-                <div class="col-xs-12 audio">
-                    <h3>Fancy a Listen?</h3>
-                </div>
-            </div>
-        </div>
-        <div class="row audio">
-            <div class="col-xs-12 col-sm-offset-3 col-sm-3 birds-and-bees"></div>
-            <div class="col-xs-12 col-sm-3 song-title">
-                <h4>Daydream Believer</h4>
-                <audio controls>
-                    <source src="../assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
-                </audio>
-            </div>
-        </div>
-    </section>
-    <hr>
-    <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div>
-                <h5 class="uppercase">MySocial</h5>
-                <ul class="list-inline social-links">
-                    <li> <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+        </footer>
+    </div>
 </body>
 
 </html>

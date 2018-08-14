@@ -14,84 +14,88 @@
     <meta name="viewport" content="width-device-width,initial-scale-1">
 
 </head>
+
 <body>
-    <nav class="navbar navbar-default">
-        <header class="container-fluid">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+    <div class="bg">
+        <div class="opaque-overlay">&nbsp;</div>
+        <nav class="navbar navbar-default">
+            <!------------Header---------->
+            <header class="container-fluid header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
              </button>
-            <h1 class="uppercase general-sub main-title">The Monkees</h1>
-            <a href="index.html">
-                <div class="title-logo"></div>
-            </a>
-            <div class="navbar-collapse collapse" id="navbar">
-                <div class="row">
-                    <ul id="nav" class="list-inline clearfix">
-                        <li class="col-xs-4 col-md-2 ui-menu-color-home menuitem">
-                            <a href="index.html" class="hvr-rectangle-out"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-Members menuitem">
-                            <a href="members.html" class="hvr-rectangle-out"><i class="fas fa-drum" aria-hidden="true"></i><span>Band Members</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-audio menuitem">
-                            <a href="audio.html" class="hvr-rectangle-out"><i class="fa fa-music" aria-hidden="true"></i><span>Audio Clips</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-video menuitem">
-                            <a href="video.html" class="hvr-rectangle-out"><i class="fa fa-video" aria-hidden="true"></i><span>Video Clips</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-bookings menuitem">
-                            <a href="bookings.html" class="hvr-rectangle-out"><i class="fa fa-pen" aria-hidden="true"></i><span>Party Bookings</span>></a>
-                        </li>
-                        <li class="col-xs-4 col-md-2 ui-menu-color-search menuitem">
-                            <a href="#" target="_blank" class="hvr-rectangle-out"><i class="fa fa-search" aria-hidden="true"></i><span>Search</span>></a>
-                        </li>
+                <a class="action_link" href="index.html">
+                    <h1 class="uppercase general-sub main-title">The Monkees</h1>
+                </a>
+                <!------------Navigation---------->
+                <div class="navbar-collapse collapse" id="navbar">
+                    <div class="row">
+                        <ul id="nav" class="list-inline clearfix">
+                            <li class="col-xs-4 col-md-2 ui-menu-color-home menuitem">
+                                <a href="index.html" class="hvr-rectangle-out"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-Members menuitem">
+                                <a href="members.html" class="hvr-rectangle-out"><i class="fas fa-drum" aria-hidden="true"></i><span>Band Members</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-audio menuitem">
+                                <a href="audio.html" class="hvr-rectangle-out"><i class="fa fa-music" aria-hidden="true"></i><span>Audio Clips</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-video menuitem">
+                                <a href="video.html" class="hvr-rectangle-out"><i class="fa fa-video" aria-hidden="true"></i><span>Video Clips</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-bookings menuitem">
+                                <a href="bookings.html" class="hvr-rectangle-out"><i class="fa fa-pen" aria-hidden="true"></i><span>Party Bookings</span>></a>
+                            </li>
+                            <li class="col-xs-4 col-md-2 ui-menu-color-search menuitem">
+                                <a href="#" target="_blank" class="hvr-rectangle-out"><i class="fa fa-search" aria-hidden="true"></i><span>Search</span>></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </header>
+        </nav>
+        <!------------Main Section---------->
+        <section class="container-fluid main-section">
+            <div class="row bg-color-contact">
+                <div>
+                    <h3 class="contact-heading uppercase text-center">Book The Monkees For Your Event</h3>
+                    <h5 class="uppercase text-center">Do You Have an Event You Would Like The Monkees To Appear at?</h5>
+                </div>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" class="form-control" id="fullname" Placeholder="Your Name" required/>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" Placeholder="Your Email Address" required/>
+                        <input type="date" name="date" class="form-control" id="date" Placeholder="Date Of Event" required/>
+                        <textarea rows="5" name="eventdetails" class="form-control" id="eventdetails" Placeholder="Event Details" required></textarea>
+                        <button type="primary" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="clear"></div>
+    <!------------Footer---------->
+    <div class="footer">
+        <footer class="container-fluid">
+            <div id="footer-details" class="row">
+                <div>
+                    <h5 class="uppercase">MySocial</h5>
+                    <ul class="list-inline social-links">
+                        <li> <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li> <a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
-
-        </header>
-    </nav>
-    <section class="container-fluid">
-        <div class="row bg-color-contact">
-            <div>
-                <h3 class="contact-heading uppercase text-center">Book The Monkees For Your Event</h3>
-                <h5 class="uppercase text-center">Do You Have an Event You Would Like The Monkees To Appear at?</h5>
-            </div>
-            <div class="center-form">
-                <form>
-                    <input type="text" name="name" class="form-control" id="fullname" Placeholder="Your Name" required/>
-                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" Placeholder="Your Email Address" required/>
-                    <input type="date" name="date"         class="form-control" id="date"         Placeholder="Date Of Event" required/>
-                    <textarea rows="5" name="eventdetails" class="form-control" id="eventdetails" Placeholder="Event Details" required></textarea>
-                    <button type="submit" class="btn btn-secondary center-block hvr-rectangle-out">Send Request</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <footer class="container-fluid">
-        <hr>
-        <div id="footer-details" class="row">
-
-            <div>
-                <h5 class="uppercase">MySocial</h5>
-                <ul class="list-inline social-links">
-                    <li> <a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-pinterest"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li> <a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
-                </ul>
-            </div>
-
-        </div>
-
-
-    </footer>
-
+        </footer>
+    </div>
 </body>
 
 </html>

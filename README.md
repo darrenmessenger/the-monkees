@@ -33,7 +33,7 @@ If you can't remember how the Monkees sound there is a sample track to remind yo
 Each member has a description from Wikipedia along with a photo. There is also a 'Read more...' with a link to Wikipedia for each member. The page utilises the bootstrap grid layout. 
 
 #### Audio Tracks:
-There a some sample audio tracks from the Monkees on this page. The page utilises the bootstrap grid layout. 
+There are some sample audio tracks from the Monkees on this page. The page utilises the bootstrap grid layout. 
 
 #### Video:
 There is a page with a video showing one of the Monkees tracks. 
