@@ -24,14 +24,20 @@ The wireframes for this website can be found in the repository within Github.
 
 ### Existing Features
 
+#### Every Page
+On every page there is a full page background of the Monkees. I have applied an overlay over the top of the background to make it slightly darker and make the text easier to read. 
+The main header of every page is clickable and will take you back to the landing page. 
+
 #### Header:
-There is a header on each page which includes an image. If the image is clicked it will take the user back to the landing page. 
+There is a header on each page which includes a main title. If the title is clicked it will take the user back to the landing page. 
 
 #### Navigation:
 On the top of each page there is a navigation bar so that each page can be clicked. The navigation bar remains constant on each page and uses hover.css when hovering over each menu item so that the menu item is highlighted. 
+On larger screens the navigation menu is on one row. On medium screens the navigation menu is on two rows with three items on each row. 
+On small screens the navigation menu disappears and a bootstrap burger button appears so that the menu can be toggled on or off. 
 
 #### The Landing Page:
-A full width background gif with a button to link you to the booking page so that you can book the Monkees for your next event. There is also a short history of the Monkees with a link via Wikipedia to learn more about them. 
+A full screen background of the Monkees with a button to link you to the booking page so that you can book the Monkees for your next event. There is also a short history of the Monkees with a link via Wikipedia to learn more about them. 
 If you can't remember how the Monkees sound there is a sample track to remind you. 
 
 #### The Band Members:
@@ -63,13 +69,13 @@ Every page has been tested as described below.
 
 ### Header
 
-The image has been clicked to make sure it takes the user back to the landing page. 
+The main title has been clicked to make sure it takes the user back to the landing page. 
 
 ### Navigation
 
 On the top of each page there is a navigation bar with 6 menu items. Each menu item has been tested on each page to ensure it takes the user to the correct page. When each menu item is hovered over then that menu was tested to make sure the use of Hover.css rectangle out is working. 
 
-When on a large screen the 6 menu items are across the top in one line. On a medium screen the menu items are on 2 rows of 3 items each. On a small screen the menu items disappear and a burger button appears which, when clicked, displays the menu items on 2 rows of 3 items each. If clicked again the menu will disappear again.  
+When on a large screen the 6 menu items are across the top in one line. On a medium screen the menu items are on 2 rows of 3 items each. On a small screen the menu items disappear and a bootstrap burger button appears which, when clicked, displays the menu items on 2 rows of 3 items each. If clicked again the menu will disappear again.  
 
 ### Home
 
@@ -95,7 +101,9 @@ There is a video clip which was tested to make sure it played correctly. There i
 
 ### Party Bookings
 
-There are 4 fields that need to be entered by the user. Each field was tested to make sure the user entered data in that field. If the user didn't enter data in each field then the submit button won't submit the data because an error message appears. When the Send Request button is pressed and all fields have been filled in nothing will happen (apart from the fields being blanked out) as that part of the course hasn't been completed yet. 
+There are 4 fields that need to be entered by the user. Each field was tested to make sure the user entered data in that field. 
+If the user didn't enter data in each field then the submit button won't submit the data because an error message appears. 
+When the Send Request button is pressed and all fields have been filled in nothing will happen (apart from the fields being blanked out) as that part of the course hasn't been completed yet. 
 
 ### Search Bar
 
