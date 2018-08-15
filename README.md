@@ -38,16 +38,17 @@ On small screens the navigation menu disappears and a bootstrap burger button ap
 
 #### The Landing Page:
 A full screen background of the Monkees with a button to link you to the booking page so that you can book the Monkees for your next event. There is also a short history of the Monkees with a link via Wikipedia to learn more about them. 
-If you can't remember how the Monkees sound there is a sample track to remind you. 
+If you can't remember how the Monkees sound there is a sample track to remind you. The link to the audio file changed from the local repository to google drive as it did not play when the website was published on github. 
 
 #### The Band Members:
 Each member has a description from Wikipedia along with a photo. There is also a 'Read more...' with a link to Wikipedia for each member. The page utilises the bootstrap grid layout. 
 
 #### Audio Tracks:
 There are some sample audio tracks from the Monkees on this page. The page utilises the bootstrap grid layout. 
+The links to the audio files have changed from the local repository to google drive as they did not play when the website was published on github. 
 
 #### Video:
-There is a page with a video showing one of the Monkees tracks. 
+There is a page with a video showing one of the Monkees tracks. The link to the ideo file changed from the local repository to google drive as it did not play when the website was published on github. 
 
 #### Party Bookings:
 A form to allow the user to enter details so that they may book the Monkees to appear at their own event. All the details are very clear using descriptive placeholders. 
